@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: weather-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   externalIPs:
   - 192.168.1.50
   ports:
