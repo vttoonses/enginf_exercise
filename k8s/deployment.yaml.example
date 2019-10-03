@@ -17,6 +17,6 @@ spec:
         image: vttoonses/interviews19:latest
         env:
           - name: dark_sky_key
-            value: "72d5acc6e6baab998a069b58c79912e5"
+            value: <THE DARK SKY API KEY>
         ports:
         - containerPort: 4000
